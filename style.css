@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height:100vh;
+    background:url('https://wallpapers.com/images/featured/ekq0mx6i5jphnr8y.jpg');
+    background-size: cover;
+}
+
+.calculator{
+    border:1px solid rgb(231, 181, 129);
+    background-color: white;
+    height:30rem;
+    width:24rem;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+   
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:80vh;
+}
+
+h2{
+    text-align: center;
+    margin-top:35px;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.forHeight{
+    margin-top: 25px;
+}
+
+.forWeight{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.forHeight p{
+    /* font-family:'Gill Sans', sans-serif ; */
+    font-size: 25px;
+}
+
+.forWeight p{
+    /* font-family:'Gill Sans', sans-serif ; */
+    font-size: 25px;
+}
+
+#weight{
+    border: none;
+    height:30px;
+    /* width:100%; */
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+    border-bottom: 3px solid burlywood;
+}
+
+
+#height{
+    border: none;
+    height:30px;
+    /* width:100%; */
+    margin-top: 35px;
+    margin-bottom: 30px;
+    padding: auto;
+    font-size: 22px;
+    text-align: center;
+    border-bottom: 3px solid burlywood;
+}
+
+#btn{
+    border: 1px solid burlywood;
+    border-radius: 20px;
+    width:80%;
+    padding:15px;
+    background-color:bisque;
+    margin-bottom: 25px;
+    font-family:'Gill Sans', sans-serif ;
+    font-size: 20px;
+}
+
+#output{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#comment{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#btn:hover{
+    background-color:rgb(231, 209, 180);
+    border:2px solid rgb(225, 183, 134);
+}
+
+#weight_error{
+    font-size: 20px;
+    color: rgb(203, 30, 30);
+}
+
+#height_error{
+    font-size: 20px;
+    color: rgb(203, 30, 30);
+}
